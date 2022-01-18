@@ -2,9 +2,10 @@
   "name": "webpack-first-step",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/mukhammadrizooff/Webpack-First-Step/issues"
   },
-  "homepage": "https://github.com/mukhammadrizooff/Webpack-First-Step#readme"
+  "homepage": "https://github.com/mukhammadrizooff/Webpack-First-Step#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
